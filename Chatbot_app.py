@@ -8,22 +8,16 @@ from sklearn.metrics.pairwise import cosine_similarity
 
 # --- Step 1: Collect FAQs related to a topic or product (questions and their answers). ---
 faqs = {
-    "What are your operating hours?": "Our operating hours are Monday to Friday, 9 AM to 5 PM IST.",
-    "How can I contact customer support?": "You can reach customer support by calling 1-800-123-4567 or emailing support@example.com.",
-    "What payment methods do you accept?": "We accept Visa, MasterCard, American Express, and PayPal.",
-    "Do you offer international shipping?": "Yes, we offer international shipping to most countries. Shipping fees and delivery times may vary.",
-    "How do I reset my password?": "You can reset your password by clicking on 'Forgot Password' on the login page and following the instructions.",
-    "Where is your main office located?": "Our main office is located in Bangalore, India.",
-    "What is your refund policy?": "Our refund policy allows returns within 30 days of purchase for a full refund. Please see our website for more details.",
-    "How are you doing today?": "I'm a bot, so I don't have feelings, but I'm ready to assist you!",
-    "Hello there": "Hi! How can I help you today?",
-    "What is your purpose?": "I'm here to answer your frequently asked questions.",
-    "What are the features of your premium plan?": "Our premium plan includes unlimited storage, priority support, and advanced analytics.",
-    "Tell me about the software features.": "The software offers real-time data processing, a user-friendly interface, and secure cloud integration.",
-    "Does your product have [specific feature]?": "Yes, our product includes [specific feature].",
-    "Can I get a demo of the product?": "Yes, you can request a demo by filling out the form on our website or contacting our sales team.",
-    "What is the warranty period for your products?": "All our products come with a one-year warranty covering manufacturing defects.",
-    "How do I track my order?": "You can track your order using the tracking link sent to your email after purchase.",
+    "Hello": "Hi there! How can I help you today?",
+    "Hi": "Hello! What can I assist you with?",
+    "How are you?": "I am a computer program, so I don't have feelings,but I'm functioning perfectly and ready to help.",
+    "What is your name?": "I am an FAQ chatbot, designed to answer your questions.",
+    "Who created you?": "I was created by a developer as part of an AI internship project.",
+    "What can you do?": "I can answer frequently asked questionsa about our services/products.Just ask me!",
+    "Can you help me?": "Yes,I'll do my best to help! Please ask your question.",
+    "Good morning": "Good morning! How may I assist you?",
+    "Good evening":"Good evening! What can I help you with?",
+    "Thank you": "You're welcome! is there anything else I can assist you with?",
 }
 
 # --- Step 2: Preprocess the text using NLP libraries like NLTK. ---
